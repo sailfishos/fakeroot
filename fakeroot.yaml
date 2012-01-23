@@ -1,0 +1,24 @@
+Name: fakeroot
+Summary: Gives a fake root environment
+Version: 1.12.4
+Release: 19
+Group: Development/Tools
+License: GPL+
+URL: http://fakeroot.alioth.debian.org/
+Sources:
+    - http://ftp.debian.org/debian/pool/main/f/fakeroot/%{name}_%{version}.tar.gz
+Description: |
+    fakeroot runs a command in an environment wherein it appears to have
+    root privileges for file manipulation. fakeroot works by replacing the
+    file manipulation library functions (chmod(2), stat(2) etc.) by ones
+    that simulate the effect the real library functions would have had,
+    had the user really been root.
+
+Requires:
+    - util-linux
+PkgBR:
+    - gcc-c++
+    - util-linux
+    - sharutils
+Builder: none
+Configure: none
