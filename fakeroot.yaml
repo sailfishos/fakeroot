@@ -7,6 +7,8 @@ License: GPL+
 URL: http://fakeroot.alioth.debian.org/
 Sources:
     - http://ftp.debian.org/debian/pool/main/f/fakeroot/%{name}_%{version}.tar.gz
+Patches:
+    - fakeroot-aarch64.patch
 Description: |
     fakeroot runs a command in an environment wherein it appears to have
     root privileges for file manipulation. fakeroot works by replacing the

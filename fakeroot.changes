@@ -1,3 +1,6 @@
+* Thu Feb 20 2014 Oleg Girko <oleg.girko@jolla.com> - 1.12.4
+- Add aarch64 support
+
 * Wed Jun 22 2011 Chris Ferron <chris.e.ferron@linux.intel.com> - 1.12.4
 - removed util-linux-ng as it has been replaced by util-linux. 
 

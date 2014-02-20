@@ -14,6 +14,7 @@ License:    GPL+
 URL:        http://fakeroot.alioth.debian.org/
 Source0:    http://ftp.debian.org/debian/pool/main/f/fakeroot/%{name}_%{version}.tar.gz
 Source100:  fakeroot.yaml
+Patch0:     fakeroot-aarch64.patch
 Requires:   util-linux
 Requires(post):  /sbin/ldconfig
 Requires(postun):  /sbin/ldconfig
@@ -35,6 +36,9 @@ had the user really been root.
 
 %prep
 %setup -q -n %{name}-%{version}
+
+# fakeroot-aarch64.patch
+%patch0 -p1
 # >> setup
 # << setup
 
