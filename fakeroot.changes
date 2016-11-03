@@ -1,3 +1,6 @@
+* Fri Nov 18 2016 Andrew Branson <andrew.branson@jollamobile.com> - 1.12.4-20
+- Add autoreconf to fix aarch64 build. Contributes JB#36790
+
 * Thu Feb 20 2014 Oleg Girko <oleg.girko@jolla.com> - 1.12.4
 - Add aarch64 support
 
