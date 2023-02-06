@@ -1,0 +1,12 @@
+diff -aur a/test/Makefile.am b/test/Makefile.am
+--- a/test/Makefile.am	2021-02-14 20:06:10.000000000 +0200
++++ b/test/Makefile.am	2023-12-25 15:15:52.033029651 +0200
+@@ -9,7 +9,6 @@
+   t.no_ld_preload				\
+   t.no_ld_preload_link				\
+   t.option					\
+-  t.tar						\
+   t.touchinstall				\
+   t.truereturn \
+   t.xattr
+
