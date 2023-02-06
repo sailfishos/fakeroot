@@ -1,6 +1,6 @@
 Name:       fakeroot
 Summary:    Gives a fake root environment
-Version:    1.29
+Version:    1.32.2
 Release:    1
 # setenv.c: LGPLv2+
 # contrib/Fakeroot-Stat-1.8.8: Perl (GPL+ or Artistic)
@@ -12,11 +12,8 @@ Patch0:     disable-cp-a-test.patch
 Patch1:     disable-tar-test.patch
 # Debian package patches, from debian.tar.xz
 Patch2:     debian_fix-shell-in-fakeroot.patch
-# Address some POSIX-types related problems.
-Patch3:     fakeroot-inttypes.patch
 # Fix LD_LIBRARY_PATH for multilib: https://bugzilla.redhat.com/show_bug.cgi?id=1241527
-Patch4:     fakeroot-multilib.patch
-Patch5:     debian_also-wrap-stat-library-call.patch
+Patch3:     fakeroot-multilib.patch
 Requires:   util-linux
 Requires(post):  /sbin/ldconfig
 Requires(postun):  /sbin/ldconfig
