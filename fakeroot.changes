@@ -1,3 +1,6 @@
+* Mon Jan 15 2024 Matti Lehtimäki <matti.lehtimaki@jolla.com> - 1.29
+- Update to version 1.29. Contributes to JB#49501
+
 * Fri Nov 18 2016 Andrew Branson <andrew.branson@jollamobile.com> - 1.12.4-20
 - Add autoreconf to fix aarch64 build. Contributes JB#36790
 
@@ -10,7 +13,7 @@
 * Sat Jan 30 2010 Zhang, Qiang Z<qiang.z.zhang@intel.com> 1.12.4
 - Update to 1.12.4
 
-* Tue Feb 19 2009 Zhang, Qiang Z<qiang.z.zhang@intel.com> 1.12.1
+* Thu Feb 19 2009 Zhang, Qiang Z<qiang.z.zhang@intel.com> 1.12.1
 - Update to 1.12.1
 
 * Tue Jan 06 2009 Anas Nashif <anas.nashif@intel.com> 1.11
